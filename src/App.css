@@ -39,3 +39,32 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Custom styles for notification list */
+.notification-list {
+  margin-top: 20px;
+}
+
+.notification-item {
+  background-color: #f8f9fa;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear-all-btn, .dismiss-btn {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clear-all-btn:hover, .dismiss-btn:hover {
+  background-color: #ff4500;
+}
